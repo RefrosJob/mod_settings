@@ -52,6 +52,14 @@ configure_redscript(src/redscript)
 configure_folder_file(readme.md)
 configure_folder_file(license.md)
 
+# Game 2.5 requires the first framework releases that know its native and menu layouts.
+# These override the older floors that cpcmake appends for game 2.31.
+set(MOD_REQUIREMENTS
+  "RED4ext 1.31.0+"
+  "ArchiveXL 1.28.0+"
+  "Redscript 0.5.32+"
+)
+
 # configure_uninstall()
 configure_release(${MOD_SLUG}_${MOD_VERSION_STR}.zip)
 configure_install()
