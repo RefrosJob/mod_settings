@@ -111,8 +111,9 @@ This example will produce the following results for enum values:
 
 ## Requirements
 
-* [RED4ext](https://github.com/WopsS/RED4ext)
-* [Redscript](https://github.com/jac3km4/redscript)
+* [RED4ext](https://github.com/WopsS/RED4ext) 1.31.0+
+* [ArchiveXL](https://github.com/psiberx/cp2077-archive-xl) 1.28.0+
+* [Redscript](https://github.com/jac3km4/redscript) 0.5.32+
 
 _For the mod to work with REDmod deployments, the following mod is required:_
 * [cybercmd](https://github.com/jac3km4/cybercmd)

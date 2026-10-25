@@ -31,7 +31,7 @@ Game version for the release name comes from the installed `Cyberpunk2077.exe`, 
 3. Build, install, launch, confirm `red4ext/logs/mod_settings-*.log` shows the hooks attaching and settings loading.
 4. Tag.
 
-State on 2026-09-13: v0.2.21 (built for 2.30) loads and works on game 2.31 unchanged; pins bumped to the 2.31 SDK so the next tag reads "for 2.31".
+State on 2026-10-25: the 2.5 port on top of v0.2.21 uses RED4ext SDK `8350155d`, the 2.5 script layouts, and menu catalogs rebuilt from 2.5 with `MenuScenario_ModSettings` restored. Requirements are RED4ext 1.31.0+, ArchiveXL 1.28.0+, redscript 0.5.32+. Verified in game 2.50 (3.0.88.46235): the plugin loads, mod settings are read, and the Mod Settings screen opens with the LHUD, LHUD Addons, and ReImagined sections. Local builds against 2.5 need `redscript-cli` 0.5.32 via `-DCMAKE_REDSCRIPT_COMPILER`; the bundled CLI cannot read the 2.5 cache.
 
 ## Releases
 
